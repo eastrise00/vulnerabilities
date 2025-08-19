@@ -1,0 +1,33 @@
+# Juniper SRX Vulnerability Monitoring System
+# Environment Variables Configuration
+
+# Router Authentication
+# Password for router SSH access (required)
+ROUTER_PASSWORD=your_router_password_here
+
+# Email Configuration (optional - for alerts)
+# SMTP server credentials for sending security alerts
+SMTP_USERNAME=your_email@company.com
+SMTP_PASSWORD=your_email_password
+
+# Optional: Custom SMTP settings
+# SMTP_SERVER=smtp.company.com
+# SMTP_PORT=587
+# SMTP_USE_TLS=true
+
+# Optional: Logging Configuration
+# LOG_LEVEL=INFO
+# LOG_FILE=juniper_monitor.log
+
+# Optional: Database Configuration
+# DB_PATH=security_advisories.db
+
+# Optional: Network Configuration
+# PROXY_HOST=
+# PROXY_PORT=
+# PROXY_USERNAME=
+# PROXY_PASSWORD=
+
+# Optional: API Keys (if using premium services)
+# NVD_API_KEY=your_nvd_api_key_here
+# JUNIPER_API_KEY=your_juniper_api_key_here
